@@ -1,0 +1,67 @@
+/* - - - ESTILOS GLOBALES - - -*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f7f7f6c7;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* - - - INICIO CONTADOR - - - */
+
+ /*tamaño y estilo para iconos*/
+.svg{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+/*disposición de elementos contador*/
+.contador{
+    display: flex;
+    align-items: center;
+    column-gap: 2em;
+}
+
+.acierto , .fallo {
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+}  
+
+/*- - - FIN CONTADOR - - -*/
+
+footer{
+    background-color: #e8eaf5c7;
+    text-align: center;
+    padding-top: 1.2em;
+}
+
+
+#sumar{
+    border: none;
+    width: 100px;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #E03E91;
+    color: white;
+    margin: 2em;
+}
+
+#restar{
+    border: none;
+    width: 100px;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #F4F9E5;
+    color:#262626;
+}
+
+#sumar:hover, #restar:hover{
+    opacity: 0.5;
+}
